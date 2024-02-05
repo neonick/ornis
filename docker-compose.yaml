@@ -1,0 +1,9 @@
+version: '3'
+services:
+  orni:
+    image: tyvik/ornis:0.1.0
+    volumes:
+      - /home/tyvik/Projects/orni/data:/app/data
+    environment:
+      - BOT_TOKEN=
+      - USER_CHANNEL=

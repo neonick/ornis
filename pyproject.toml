@@ -1,0 +1,15 @@
+[project]
+name = "orni"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "TyVik", email = "orni@tyvik.ru"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.12"
+
+dependencies = [
+    "requests"
+]
+
+readme = "README.md"
